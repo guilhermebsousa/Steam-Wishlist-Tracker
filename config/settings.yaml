@@ -1,0 +1,8 @@
+urls:
+  get_app_info: "https://store.steampowered.com/api/appdetails?appids={app_id}&cc=br"
+  get_wishlist: "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?key={api_key}&steamid={steam_id}"
+  discord_webhook: "https://discord.com/api/webhooks/1439033828222959677/iJyORQeEtxyZfpmMckvDxsKeee7oFAb2cOZFh3scdYJnSbTbwqp6wcQfh0rGJUhfKIGH"
+
+paths:
+  env: "./config/.env"
+  apps_info: "./data/apps_info.json"

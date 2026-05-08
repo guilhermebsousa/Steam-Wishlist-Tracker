@@ -1,0 +1,30 @@
+{
+  "username": "Steam Wishlist Notifier",
+  "embeds": [
+    {
+      "title": "game_title",
+      "description": "~~R$initial_price~~ ⟶ **R$final_price** (-discount_percent%)",
+      "color": 5616112,
+      "image": {
+        "url": "header_image"
+      },
+      "fields": [
+        {
+          "name": "Genre",
+          "value": "main_genre",
+          "inline": true
+        },
+        {
+          "name": " ",
+          "value": ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::",
+          "inline": false
+        },
+        {
+          "name": "Steam Web Page",
+          "value": "[__**Click Here!**__](https://store.steampowered.com/app/app_id/)",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
