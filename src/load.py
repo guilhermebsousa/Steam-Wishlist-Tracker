@@ -16,13 +16,13 @@ config = load_settings_yaml()
 env_path = config.get("paths", {}).get("env")
 load_dotenv(env_path)
 
-user = os.getenv('USER')
+database_user = os.getenv('DATABASE_USER')
 password = os.getenv('PASSWORD')
 database = os.getenv('DATABASE')
 host = 'localhost'
 
 engine = create_engine(
-    f"postgresql+psycopg2://{user}:{quote_plus(password)}@{host}:5432/{database}"
+    f"postgresql+psycopg2://{database_user}:{quote_plus(password)}@{host}:5432/{database}"
 )
 
 Session = sessionmaker(bind=engine)

@@ -25,7 +25,6 @@ def notify(url: str, app: dict) -> None:
     filled_template = json.loads(template_str)
     response = requests.post(url, json=filled_template)
     
-    # Melhoria: log mais detalhado
     if response.status_code == 204:
         logger.info(f" Notificação de {app.get('name', 'Unknown')} enviada.")
     else:
@@ -43,7 +42,7 @@ def promo_alert(webhook_url: str) -> None:
     for app_id in promo_ids_list:
         if app_id not in notified:
             app_data = apps_info.get(app_id)
-            if app_data:  # Verificar se existe
+            if app_data:
                 notify(webhook_url, app_data)
                 notified.append(app_id)
                 new_notifications += 1
