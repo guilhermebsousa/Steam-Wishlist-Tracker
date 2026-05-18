@@ -4,9 +4,9 @@ from decimal import Decimal
 from dotenv import load_dotenv
 from datetime import datetime
 from urllib.parse import quote_plus
-from sqlalchemy import create_engine, String, Integer, Numeric, func, DateTime, Boolean
+from sqlalchemy import create_engine, String, Integer, Numeric, func, DateTime
 from sqlalchemy.orm import Session, sessionmaker, DeclarativeBase, Mapped, mapped_column
-from src.tools import load_settings_yaml, logging_setup, read_json, save_json
+from src.tools import load_settings_yaml, logging_setup, save_json
 
 
 logger = logging.getLogger(__name__)
@@ -18,11 +18,12 @@ load_dotenv(env_path)
 
 database_user = os.getenv('DATABASE_USER')
 password = os.getenv('PASSWORD')
+host = os.getenv('HOST')
+port = os.getenv('PORT')
 database = os.getenv('DATABASE')
-host = 'localhost'
 
 engine = create_engine(
-    f"postgresql+psycopg2://{database_user}:{quote_plus(password)}@{host}:5432/{database}"
+    f"postgresql://{database_user}:{quote_plus(password)}@{host}:{port}/{database}"
 )
 
 Session = sessionmaker(bind=engine)

@@ -23,5 +23,13 @@ jobs:
       - name: Sync dependencies
         run: uv sync --frozen
       
+      - name: Database connection
+        env:
+          DATABASE_USER: ${{ secrets.DATABASE_USER }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+          HOST: ${{ secrets.HOST }}
+          PORT: ${{ secrets.PORT }}
+          DATABASE: ${{ secrets.DATABASE }}
+
       - name: Run pipeline
         run: uv run python main.py
