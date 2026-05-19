@@ -51,8 +51,8 @@ uv run python main.py
 - *logging*: Logs estruturados do pipeline
 
 ### Funcionalidades
-- *Sem spam*: Só notifica uma vez por jogo até o preço mudar de novo
-- *Histórico*: Guarda preços no Supabase pra acompanhar variação
-- *Webhook*: Embed do Discord com nome, preço antigo/novo, % desconto e link da loja
-- *ORM*: SQLAlchemy facilita migrações e queries
-- *Automático*: Roda sozinho via Actions
+- **Sem spam**: Só notifica uma vez por jogo até o preço mudar de novo
+- **Histórico**: Guarda preços no Supabase pra acompanhar variação
+- **Webhook**: Embed do Discord com nome, preço antigo/novo, % desconto e link da loja
+- **ORM**: SQLAlchemy facilita migrações e queries
+- **Automático**: Roda sozinho via Actions
