@@ -16,6 +16,9 @@ jobs:
       HOST: ${{ secrets.HOST }}
       PORT: ${{ secrets.PORT }}
       DATABASE: ${{ secrets.DATABASE }}
+      STEAM_USER_ID: ${{ secrets.STEAM_USER_ID }}
+      API_KEY: ${{ secrets.API_KEY }}
+      WEBHOOK: ${{ secrets.WEBHOOK }}
     
     steps:
       - name: Checkout do código
