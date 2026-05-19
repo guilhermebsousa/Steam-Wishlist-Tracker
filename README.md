@@ -5,11 +5,11 @@ Pipeline de dados que monitora sua lista de desejos da Steam e te avisa no Disco
 **Stack**: Python | SQLAlchemy | Supabase/Postgres | Discord Webhook | Steam API | UV
 
 ### Como funciona
-1. *Extração*: Puxa todos os jogos da sua wishlist da Steam via `steamid` e salva raw em `apps_info.json`  
-2. *Transformação*: Normaliza preços, nomes, desconto % e dados da loja  
-3. *Load*: Conecta no Supabase via *SQLAlchemy* e armazena os dados tratados  
-4. *Monitor*: Compara preços atuais com o banco. Se detectar promoção nova, salva os `appids` em `promo_ids.json`  
-5. *Notificação*: Dispara webhook no Discord com os jogos em promoção e registra em `notified.json` pra não spammar  
+1. **Extração**: Puxa todos os jogos da sua wishlist da Steam via `steamid` e salva raw em `apps_info.json`  
+2. **Transformação**: Normaliza preços, nomes, desconto % e dados da loja  
+3. **Load**: Conecta no Supabase via *SQLAlchemy* e armazena os dados tratados  
+4. **Monitor**: Compara preços atuais com o banco. Se detectar promoção nova, salva os `appids` em `promo_ids.json`  
+5. **Notificação**: Dispara webhook no Discord com os jogos em promoção e registra em `notified.json` pra não spammar  
 
 ### Rodando local
 
@@ -22,10 +22,10 @@ uv sync
 O UV gerencia o venv e instala tudo do `pyproject.toml` automaticamente.  
 
 **3. Configure o .env**  
-STEAM_ID=7656119xxxxxxxxxx  
-STEAM_API_KEY=sua_key_aqui  
-DATABASE_URL=postgresql://postgres:senha@db.xxxx.supabase.co:porta/postgres  
-DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/xxxxx  
+STEAM_ID = 7656119xxxxxxxxxx  
+STEAM_API_KEY = sua_key_aqui  
+DATABASE_URL = postgresql://user:password@db.xxxx.supabase.co:port/postgres  
+DISCORD_WEBHOOK_URL = https://discord.com/api/webhooks/xxxxx  
   
 **4. Execute**  
 uv run python main.py  
@@ -44,11 +44,11 @@ uv run python main.py
 └── .env.example         # Template de variáveis  
 
 ### Tech Stack
-- *UV*: Gerenciamento de dependências e ambiente virtual
-- *SQLAlchemy*: ORM pra conectar no Postgres/Supabase
-- *psycopg2*: Driver PostgreSQL
-- *requests*: Chamadas HTTP pra API da Steam e Discord
-- *logging*: Logs estruturados do pipeline
+- **UV**: Gerenciamento de dependências e ambiente virtual
+- **SQLAlchemy**: ORM pra conectar no Postgres/Supabase
+- **psycopg2**: Driver PostgreSQL
+- **requests**: Chamadas HTTP pra API da Steam e Discord
+- **logging**: Logs estruturados do pipeline
 
 ### Funcionalidades
 - **Sem spam**: Só notifica uma vez por jogo até o preço mudar de novo
