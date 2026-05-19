@@ -24,7 +24,7 @@ O UV gerencia o venv e instala tudo do `pyproject.toml` automaticamente.
 **3. Configure o .env**  
 STEAM_ID=7656119xxxxxxxxxx  
 STEAM_API_KEY=sua_key_aqui  
-DATABASE_URL=postgresql://postgres:senha@db.xxxx.supabase.co:5432/postgres  
+DATABASE_URL=postgresql://postgres:senha@db.xxxx.supabase.co:porta/postgres  
 DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/xxxxx  
   
 **4. Execute**  
