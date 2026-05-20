@@ -16,12 +16,12 @@
         },
         {
           "name": " ",
-          "value": ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::",
+          "value": "-",
           "inline": false
         },
         {
-          "name": "Steam Web Page",
-          "value": "[__**Click Here!**__](https://store.steampowered.com/app/app_id/)",
+          "name": "Game Page",
+          "value": "[__**Steam Web**__](https://store.steampowered.com/app/app_id/)",
           "inline": true
         }
       ]

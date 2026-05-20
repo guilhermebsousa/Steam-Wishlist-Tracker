@@ -1,10 +1,29 @@
 import logging
-import pandas as pd
 from src.tools import logging_setup, load_settings_yaml, read_json, save_json
 
 logger = logging.getLogger(__name__)
 logging_setup()
 config = load_settings_yaml()
+
+
+def filter_game_data(file_path: str) -> None:
+    formated_data = {}
+    raw_data = read_json(file_path)
+    for app_id, app_data in raw_data.items():
+        game = app_data.get(app_id, {}).get("data")
+        price = game.get("price_overview", {})
+        genres = game.get("genres", [])
+
+        formated_data[app_id] = {
+            "id": app_id,
+            "name": game.get("name"),
+            "initial_price": price.get("initial", 0),
+            "final_price": price.get("final", 0),
+            "discount_percent": price.get("discount_percent", 0),
+            "main_genre": genres[0]["description"] if genres else "Sem gênero",
+            "header_image": game.get("header_image", "")
+        }
+    save_json("./data/apps_info.json", formated_data)
 
 
 def price_formatation(apps_info: dict) -> None:
@@ -17,6 +36,7 @@ def price_formatation(apps_info: dict) -> None:
     logger.info("Formato de preços ajustados com sucesso!")       
     return apps_info
 
+
 def id_to_int(apps_info: dict) -> None:
     logger.info("Convertendo ID para formato inteiro...")
     for app_id, app_data in apps_info.items():
@@ -24,12 +44,12 @@ def id_to_int(apps_info: dict) -> None:
     logger.info("Conversão realizada com sucesso!")
     return apps_info 
 
+
 def transformations(file_path: str) -> None:
     logger.info("Iniciando transformações do arquivo...")
+    filter_game_data(file_path)
     data = read_json(file_path)
     data = price_formatation(data)
     data = id_to_int(data)
-    df = pd.DataFrame(data)
     save_json("./data/apps_info.json", data)
     logger.info("Tranformações concluídas!")
-    return df
