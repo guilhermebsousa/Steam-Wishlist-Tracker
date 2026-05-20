@@ -48,9 +48,8 @@ def extract_apps_info(steam_id:str, api_key:str) -> list[dict]:
             
             data = response.json()
             apps_data[app_id] = data
-
-        with open("./data/apps_info.json", 'w') as f:
-            json.dump(apps_data, f, indent=4)
+        
+        save_json("./data/apps_info.json", apps_data)
         
         logger.info("Dados dos apps extraídos!")
         return apps_data
