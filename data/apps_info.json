@@ -11,9 +11,9 @@
     "393380": {
         "id": 393380,
         "name": "Squad",
-        "initial_price": 134.99,
-        "final_price": 134.99,
-        "discount_percent": 0,
+        "initial_price": 188.99,
+        "final_price": 75.59,
+        "discount_percent": 60,
         "main_genre": "Action",
         "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393380/aa36f6d31a74ca6b1949f35464305ac105e83c52/header_alt_assets_8.jpg?t=1778698936"
     },
@@ -25,6 +25,15 @@
         "discount_percent": 0,
         "main_genre": "Action",
         "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/562260/header.jpg?t=1763375107"
+    },
+    "601150": {
+        "id": 601150,
+        "name": "Devil May Cry 5",
+        "initial_price": 129.0,
+        "final_price": 19.35,
+        "discount_percent": 85,
+        "main_genre": "Action",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/header.jpg?t=1768869803"
     },
     "1029780": {
         "id": 1029780,
@@ -70,14 +79,5 @@
         "discount_percent": 0,
         "main_genre": "Action",
         "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/header.jpg?t=1778795130"
-    },
-    "601150": {
-        "id": 601150,
-        "name": "Devil May Cry 5",
-        "initial_price": 129.0,
-        "final_price": 19.35,
-        "discount_percent": 85,
-        "main_genre": "Action",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/header.jpg?t=1768869803"
     }
 }
