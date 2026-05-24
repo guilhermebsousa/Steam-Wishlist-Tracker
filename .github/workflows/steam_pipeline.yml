@@ -40,15 +40,15 @@ jobs:
       - name: Run pipeline
         run: uv run python main.py
       
-      - name: Git configuration
+      - name: Configurar Git
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
       
-      - name: Commit e push
+      - name: Force push para sobrescrever
         run: |
           git add -A
           if ! git diff --staged --quiet; then
-            git commit -m "Atualiza dados Steam [skip ci]"
-            git push
+            git commit -m "Atualizando dados pelo bot"
+            git push --force
           fi
