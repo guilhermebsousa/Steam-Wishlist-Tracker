@@ -3,8 +3,8 @@
         "id": 268910,
         "name": "Cuphead",
         "initial_price": 36.99,
-        "final_price": 36.99,
-        "discount_percent": 0,
+        "final_price": 25.89,
+        "discount_percent": 30,
         "main_genre": "Action",
         "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg?t=1709068852"
     },
@@ -12,8 +12,8 @@
         "id": 562260,
         "name": "WAVESHAPER",
         "initial_price": 7.99,
-        "final_price": 7.99,
-        "discount_percent": 0,
+        "final_price": 6.39,
+        "discount_percent": 20,
         "main_genre": "Action",
         "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/562260/header.jpg?t=1763375107"
     },
@@ -21,8 +21,8 @@
         "id": 1029780,
         "name": "Going Medieval",
         "initial_price": 88.99,
-        "final_price": 88.99,
-        "discount_percent": 0,
+        "final_price": 71.19,
+        "discount_percent": 20,
         "main_genre": "Indie",
         "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029780/4ace74f98f6fb1d7b8abec7918bfa2a440f447e5/header.jpg?t=1782228210"
     },
@@ -30,8 +30,8 @@
         "id": 1030300,
         "name": "Hollow Knight: Silksong",
         "initial_price": 59.99,
-        "final_price": 59.99,
-        "discount_percent": 0,
+        "final_price": 44.99,
+        "discount_percent": 25,
         "main_genre": "Action",
         "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/7983574d464e6559ac7e24275727f73a8bcca1f3/header.jpg?t=1776125736"
     },
