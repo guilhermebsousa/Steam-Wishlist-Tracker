@@ -3,8 +3,8 @@
         "id": 268910,
         "name": "Cuphead",
         "initial_price": 36.99,
-        "final_price": 25.89,
-        "discount_percent": 30,
+        "final_price": 36.99,
+        "discount_percent": 0,
         "main_genre": "Action",
         "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg?t=1709068852"
     },
@@ -12,8 +12,8 @@
         "id": 562260,
         "name": "WAVESHAPER",
         "initial_price": 7.99,
-        "final_price": 6.39,
-        "discount_percent": 20,
+        "final_price": 7.99,
+        "discount_percent": 0,
         "main_genre": "Action",
         "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/562260/header.jpg?t=1763375107"
     },
@@ -24,14 +24,14 @@
         "final_price": 71.19,
         "discount_percent": 20,
         "main_genre": "Indie",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029780/4ace74f98f6fb1d7b8abec7918bfa2a440f447e5/header.jpg?t=1782228210"
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029780/b38ab0e3cf35df25169af43ec5d8085ce0c4cc3b/header_alt_assets_21.jpg?t=1783610251"
     },
     "1030300": {
         "id": 1030300,
         "name": "Hollow Knight: Silksong",
         "initial_price": 59.99,
-        "final_price": 44.99,
-        "discount_percent": 25,
+        "final_price": 59.99,
+        "discount_percent": 0,
         "main_genre": "Action",
         "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/7983574d464e6559ac7e24275727f73a8bcca1f3/header.jpg?t=1776125736"
     },
@@ -39,8 +39,8 @@
         "id": 1091500,
         "name": "Cyberpunk 2077",
         "initial_price": 199.9,
-        "final_price": 59.97,
-        "discount_percent": 70,
+        "final_price": 199.9,
+        "discount_percent": 0,
         "main_genre": "RPG",
         "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1769690377"
     },
@@ -48,8 +48,8 @@
         "id": 1740720,
         "name": "Have a Nice Death",
         "initial_price": 65.99,
-        "final_price": 23.09,
-        "discount_percent": 65,
+        "final_price": 65.99,
+        "discount_percent": 0,
         "main_genre": "Action",
         "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1740720/header.jpg?t=1717104630"
     },
@@ -66,8 +66,8 @@
         "id": 1874880,
         "name": "Arma Reforger",
         "initial_price": 149.99,
-        "final_price": 104.99,
-        "discount_percent": 30,
+        "final_price": 149.99,
+        "discount_percent": 0,
         "main_genre": "Action",
         "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874880/header.jpg?t=1779966148"
     },
@@ -75,8 +75,8 @@
         "id": 1971870,
         "name": "Mortal Kombat 1",
         "initial_price": 199.99,
-        "final_price": 39.99,
-        "discount_percent": 80,
+        "final_price": 199.99,
+        "discount_percent": 0,
         "main_genre": "Action",
         "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/header.jpg?t=1778795130"
     }
