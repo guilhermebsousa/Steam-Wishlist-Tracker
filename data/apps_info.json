@@ -21,8 +21,8 @@
         "id": 1029780,
         "name": "Going Medieval",
         "initial_price": 88.99,
-        "final_price": 71.19,
-        "discount_percent": 20,
+        "final_price": 88.99,
+        "discount_percent": 0,
         "main_genre": "Indie",
         "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029780/b38ab0e3cf35df25169af43ec5d8085ce0c4cc3b/header_alt_assets_21.jpg?t=1783610251"
     },
