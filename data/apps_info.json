@@ -24,7 +24,7 @@
         "final_price": 66.74,
         "discount_percent": 25,
         "main_genre": "Indie",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029780/e2cae122ca4663db2108808148d2793eef2f3e0f/header.jpg?t=1790859972"
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029780/6758fe8aecc08e47f18f3394cb774c13a3b068d4/header_alt_assets_22.jpg?t=1790859972"
     },
     "1030300": {
         "id": 1030300,
@@ -39,8 +39,8 @@
         "id": 1091500,
         "name": "Cyberpunk 2077",
         "initial_price": 199.9,
-        "final_price": 199.9,
-        "discount_percent": 0,
+        "final_price": 59.97,
+        "discount_percent": 70,
         "main_genre": "RPG",
         "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1784714077"
     },
@@ -60,7 +60,7 @@
         "final_price": 47.99,
         "discount_percent": 20,
         "main_genre": "Adventure",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805110/eb4d451b48814809bed4051038d629dd8d5d1480/header_alt_assets_0.jpg?t=1791549752"
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805110/eb4d451b48814809bed4051038d629dd8d5d1480/header_alt_assets_0.jpg?t=1791886112"
     },
     "1874880": {
         "id": 1874880,
