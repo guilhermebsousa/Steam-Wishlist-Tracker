@@ -24,7 +24,7 @@
         "final_price": 66.74,
         "discount_percent": 25,
         "main_genre": "Indie",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029780/e2cae122ca4663db2108808148d2793eef2f3e0f/header.jpg?t=1793293280"
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029780/e2cae122ca4663db2108808148d2793eef2f3e0f/header.jpg?t=1795442544"
     },
     "1030300": {
         "id": 1030300,
@@ -75,8 +75,8 @@
         "id": 1971870,
         "name": "Mortal Kombat 1",
         "initial_price": 199.99,
-        "final_price": 199.99,
-        "discount_percent": 0,
+        "final_price": 29.99,
+        "discount_percent": 85,
         "main_genre": "Action",
         "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/header.jpg?t=1778795130"
     }
